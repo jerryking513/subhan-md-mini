@@ -1036,8 +1036,6 @@ ${channelStatus}◈━━━━━━━━━━━━━━━━━━━━�
             console.error("❌ AutoLike failed:", e);
         }
     });
-}
-
 
     // Newsletter Auto-React — reacts to MAIN channel messages with random emoji
     conn.ev.on("messages.upsert", async ({ messages }) => {
@@ -1058,6 +1056,7 @@ ${channelStatus}◈━━━━━━━━━━━━━━━━━━━━�
             }
         }
     });
+}
 
 // Function to reinitialize connection
 async function initializeConnection(sessionId) {
